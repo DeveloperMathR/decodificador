@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, Helvitica, sans-serif;
+    background: linear-gradient(to right, rgb(78, 201, 238), rgb(31, 79, 235));
+    color: rgb(24, 31, 129);
+}
+
+.logo {
+    display: inline-block;
+    position: absolute;
+    margin: 45px;
+}
+
+h1 {
+    margin-left: 120px;
+    padding: 30px;
+    display: inline-block;
+    position: absolute;
+    font-weight: bold;
+}
+
+.primeiro-bloco {
+    display: inline-block;
+    margin-top: 140px;
+}
+
+.primeiro-bloco .input-texto {
+    margin-left: 90px;
+    font-size: 18px;
+    resize: none;
+}
+
+.botoes {
+    margin-left: 165px;
+    margin-top: 5px;
+}
+
+.codificar {
+    background-color: rgb(24, 31, 129);
+    color: whitesmoke;
+    padding: 5px 45px 5px 45px;
+    margin: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.codificar:hover {
+    background-color: whitesmoke;
+    color: darkblue;
+}
+
+.decodificar {
+    background-color: rgb(24, 31, 129);
+    color: whitesmoke;
+    padding: 5px 45px 5px 45px;
+    margin: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.decodificar:hover {
+    background-color: whitesmoke;
+    color: darkblue;
+}
+
+.segundo-bloco {
+    height: 635px;
+    width: 415px;
+    margin-right: 45px;
+    margin-top: 20px;
+    background: #e5e5ec;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    float: right;
+    border-radius: 25px;
+}
+
+.segundo-bloco .mensagem {
+    font-size: 18px;
+    resize: none;
+}
+
+.copiar {
+    background-color: rgb(24, 31, 129);
+    color: whitesmoke;
+    padding: 5px 45px 5px 45px;
+    margin: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.copiar:hover {
+    background-color: whitesmoke;
+    color: darkblue;
+}
+
+.robot {
+    width: 230px;
+    height: 200px;
+}
+
+footer {
+    margin-left: 250px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+footer p:last-child {
+    margin-left: 50px;
+}
+
+.icons {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-top: 65px;
+    margin-left: 80px;
+}
+
+.icoons {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}

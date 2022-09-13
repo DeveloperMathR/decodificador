@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Decodificador ALURA</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="icon.jpg" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <header>
+            <img class="logo" src="Vector.png" alt="logo da alura">
+            <h1>Codificador de Textos do Challenge ONE</h1>
+        </header>
+
+        <main class="container">
+			
+            <section class="primeiro-bloco">
+                <textarea class="input-texto" cols="58" rows="13" placeholder="Digite a sua mensagem para codificar ou decodificar"></textarea>
+                <div class="botoes">
+                    <button class="codificar" onclick="btnCodificar()">Codificar</button>
+                    <button class="decodificar" onclick="btnDecodificar()">Decodificar</button>
+                </div>
+            </section>
+
+            <section class="segundo-bloco">
+                <h2>Seu texto codificado aparecerá aqui!</h2>
+                <div>
+                    <textarea class="mensagem" cols="35" rows="13"></textarea>
+                    <button class="copiar" onclick="btnCopiar()">Copiar</button>
+                </div>
+                <img class="robot" src="robot-unscreen.gif" alt="imagem de robô animada">
+            </section>
+
+        </main>
+
+        <footer>
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/dev-matheus-rodrigues/"><img src="logo-linkedin.svg" Alt="icon likendin"></a>
+                </div>
+                <div class="icoons">
+                    <a href="https:/github.com/DeveloperMathR"><img src="logo-github.svg" Alt="icon github"></a>
+                </div>
+                <p>Feito por Matheus Rodrigues</p>
+                <p>&copy; Copyrigth</p>
+        </footer>
+
+        <script src="script.js"></script>
+        
+    </body>
